@@ -1,0 +1,11 @@
+.form-container {
+  background-color: #f9a03f;
+}
+
+.option-container {
+  /* background-color: #c7c5c2; */
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
