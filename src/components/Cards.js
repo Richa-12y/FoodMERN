@@ -1,7 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
-import food from "../assest/img/seasons-tea-and-buns-1.png";
 import Form from "react-bootstrap/Form";
 
 const Cards = () => {
@@ -19,7 +18,7 @@ const Cards = () => {
       >
         <Card.Img
           variant="top"
-          src="https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg"
+          src="https://source.unsplash.com/random/800x600/?noodles"
           alt="food"
         />
         <Card.Body>
@@ -49,8 +48,8 @@ const Cards = () => {
                 <option value="full">Full</option>
               </Form.Select>
             </div>
+            <div>Total Price</div>
           </div>
-          <div>Total Price</div>
           {/* <Container className="pt-2">
               <Button variant="primary">Add to Cart</Button>
             </Container> */}
